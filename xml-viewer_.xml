@@ -1,0 +1,46 @@
+<medical_card>
+    <patients>
+        <patient id="1">
+            <name>Гуро Руслан</name>
+            <birth_date>2006-05-29</birth_date>
+            <gender>Мужской</gender>
+            <address>
+                <city>Бугульма</city>
+                <street>ул. Баумана, д. 12</street>
+            </address>
+        </patient>
+    </patients>
+    <visits>
+        <visit id="1">
+            <patient_id>1</patient_id>
+            <date>2025-05-02</date>
+            <complaints>Сухой кашель, насморк</complaints>
+            <diagnosis>Ковид</diagnosis>
+            <treatment>
+                <medication>Укол</medication>
+                <dosage>3 раза в день</dosage>
+                <duration>месяц</duration>
+            </treatment>
+            <doctor>
+                <name>Людмилла Николаевна</name>
+                <specialization>Терапевт</specialization>
+            </doctor>
+        </visit>
+    </visits>
+    <tests>
+        <test id="666">
+            <patient_id>1</patient_id>
+            <type>Анализ крови</type>
+            <date>2020-05-15</date>
+            <results>
+                <wbc>5.5</wbc>
+                <rbc>4.4</rbc>
+                <hgb>140</hgb>
+            </results>
+            <laboratory>
+                <name>Лаборатория №1</name>
+                <address>ул. Морковникова, 13</address>
+            </laboratory>
+        </test>
+    </tests>
+</medical_card>

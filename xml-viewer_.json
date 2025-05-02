@@ -1,0 +1,48 @@
+{
+  "medical_card": {
+    "patients": {
+      "patient": {
+        "name": "Гуро Руслан",
+        "birth_date": "2006-05-29",
+        "gender": "Мужской",
+        "address": {
+          "city": "Бугульма",
+          "street": "ул. Баумана, д. 12"
+        }
+      }
+    },
+    "visits": {
+      "visit": {
+        "patient_id": 1,
+        "date": "2025-05-02",
+        "complaints": "Сухой кашель, насморк",
+        "diagnosis": "Ковид",
+        "treatment": {
+          "medication": "Укол",
+          "dosage": "3 раза в день",
+          "duration": "месяц"
+        },
+        "doctor": {
+          "name": "Людмилла Николаевна",
+          "specialization": "Терапевт"
+        }
+      }
+    },
+    "tests": {
+      "test": {
+        "patient_id": 1,
+        "type": "Анализ крови",
+        "date": "2020-05-15",
+        "results": {
+          "wbc": 5.5,
+          "rbc": 4.4,
+          "hgb": 140
+        },
+        "laboratory": {
+          "name": "Лаборатория №1",
+          "address": "ул. Морковникова, 13"
+        }
+      }
+    }
+  }
+}
